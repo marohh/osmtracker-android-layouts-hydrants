@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layouts>
+    <layout name="root">
+        <row>
+            <button type="voicerec" icon="voice_32x32" />
+        </row>
+        <row>
+            <button type="picture" icon="camera_32x32" />
+            <button type="textnote" icon="text_32x32" />
+        </row>
+        <row>
+            <button type="tag" label="Parkbucht"  />
+            <button type="tag" label="Gehweg"  />
+	          <button type="tag" label="Gras, Wiese"  />
+        </row>
+        <row>
+            <button type="tag" label="FEHLER"  />
+            <button type="page" label="Ziffern" targetlayout="zahlen" />
+        </row>
+        <row>
+            <button type="page" label="Hydranten..." targetlayout="hydrant" />
+        </row>
+    </layout>
+    <layout name="hydrant">
+        <row>
+            <button type="tag" label="H  80"  />
+            <button type="tag" label="H 100"  />
+            <button type="tag" label="H 110"  />
+        </row>
+        <row>
+            <button type="tag" label="H 125" />
+            <button type="tag" label="H 150" />
+            <button type="tag" label="H 160"  />
+        </row>
+        <row>
+            <button type="tag" label="H 200"  />
+            <button type="tag" label="H 250"  />
+            <button type="page" label="back" targetlayout="root" />
+        </row>
+
+    </layout>
+
+    <layout name="zahlen">
+        <row>
+            <button type="tag" label="1"  />
+            <button type="tag" label="2"  />
+            <button type="tag" label="3"  />
+        </row>
+        <row>
+            <button type="tag" label="4" />
+            <button type="tag" label="5" />
+            <button type="tag" label="6"  />
+        </row>
+        <row>
+            <button type="tag" label="7"  />
+            <button type="tag" label="8"  />
+            <button type="tag" label="9"  />
+         </row>
+        <row>
+            <button type="tag" label="Nr."  /><button type="tag" label="0"  />
+
+            <button type="tag" label="Hyd."  />
+            <button type="page" label="back" targetlayout="root" />
+        </row>
+
+    </layout>
+    
+    <layout name="misc">
+        <row>
+            <button type="voicerec" icon="voice_32x32" />
+            <button type="picture" icon="camera_32x32" />
+            <button type="textnote" icon="text_32x32" />
+        </row>
+    </layout>
+</layouts>
