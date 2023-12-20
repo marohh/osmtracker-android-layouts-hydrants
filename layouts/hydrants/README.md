@@ -4,7 +4,7 @@ orignally published at https://www.einsatz-monitor.de/tour_demo.php?page=osmtrac
 
 extended to distinguish underground and above ground hydrants during recording
 
-== How to use ==
+## How to use 
 This repository was originally intended to be connected to directly from the OSMtracker app to download the layout online.
 This has not worked, however.
 
