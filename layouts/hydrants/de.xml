@@ -18,7 +18,8 @@
             <button type="page" label="Ziffern" targetlayout="zahlen" />
         </row>
         <row>
-            <button type="page" label="Hydranten..." targetlayout="hydrant" />
+            <button type="page" label="Hydrant" targetlayout="hydrant" />
+            <button type="page" label="H Unterflur" targetlayout="hydrant_unterflur" />
         </row>
     </layout>
     <layout name="hydrant">
@@ -37,8 +38,25 @@
             <button type="tag" label="H 250"  />
             <button type="page" label="back" targetlayout="root" />
         </row>
-
     </layout>
+    <layout name="hydrant_unterflur">
+        <row>
+            <button type="tag" label="HU  80"  />
+            <button type="tag" label="HU 100"  />
+            <button type="tag" label="HU 110"  />
+        </row>
+        <row>
+            <button type="tag" label="HU 125" />
+            <button type="tag" label="HU 150" />
+            <button type="tag" label="HU 160"  />
+        </row>
+        <row>
+            <button type="tag" label="HU 200"  />
+            <button type="tag" label="HU 250"  />
+            <button type="page" label="back" targetlayout="root" />
+        </row>
+    </layout>
+
 
     <layout name="zahlen">
         <row>
